@@ -1,0 +1,1 @@
+Aplikacja obliczająca równanie kwadratowe.

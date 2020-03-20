@@ -30,13 +30,13 @@ void rownanieKwadratowe(int a, int b, int c)
 
 int main(int argc, char** argv) {
     int a, b, c;
-    cout<<"Program do liczenia rownan kwadratowych: ax^2 + bx + c" << endl;
+    cout<<"Program do liczenia rownania kwadratowego: ax^2 + bx + c" << endl;
     cout<<"a= ";
     cin>>a;
-    do {
+    while (a == 0) {
         cout<<"Niewlasciwa wartosc. Podaj ponownie: ";
         cin>>a;
-    }while (a == 0);
+    };
     cout<<"b= ";
     cin>>b;
     cout<<"c= ";
